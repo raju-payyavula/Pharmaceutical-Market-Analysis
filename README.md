@@ -63,7 +63,25 @@ This dataset has 6 CSV files elaborating the details of Bangladesh Generic Medic
 -  Step 4: Transformed medicine.csv by splitting the package container column to extract price details.
 -  Step 5: Analyzed dataset columns and established the ER model. Link to
         <a href= "https://github.com/raju-payyavula/Pharmaceutical-Market-Analysis/blob/main/ER%20Model.PNG"> ER Model </a>
--  Step 6: Created a measure to calculate average generic prices using the formula: Avg Price = AVERAGE(medicine[price]).
+-  Step 6: Created a measure to calculate average generic prices using the formula: Avg Price = AVERAGE(medicine[price]).Key Features
+  
+## Key Features
+1. Summary Statistics:
 
-
-
+-        Total Medicine Brands: 21.71K
+-        Total Manufacturers: 240
+-        Total Drug Classes: 453
+-        Total Generics: 1711
+-        Total Dosage Forms: 113
+2. Sales by Medicine Type:
+-        Breakdown of allopathic(98.38%) and herbal(1.62%) medicine sales
+3. Top Generics and Dosage Forms:
+-         Most popular dosage forms: Tablet, Capsule, Powder.
+-         Generics with the highest number of brands, e.g., Cefixime Trihydrate.
+4. Drug Class Analysis:
+-        Top 3 Drug classes with the highest number of generics and brands are 1. Herbal and Nutraceuticals(65%) 2. Cytotoxic Chemotherapy(18.6%) 3. Vaccines, Anti-sera & Immunogloblulin(16.3%)
+5. Manufacturer Insights:
+-         Leading manufacturers by dosage forms and brands(**Incepta Pharmaceuticals Ltd** with 1182 brands and 76 dosage forms).
+-         Specific insights into manufacturers of key drugs like Paracetamol and Anti-Malerial. 5 manufacturers were producing paracetamol IV infusion and 23 manufacturers were producing anti-malarial drug.
+6. Pricing Data:
+-        Average price of specific drugs (e.g., Mefloquine) 
