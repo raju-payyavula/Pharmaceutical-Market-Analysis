@@ -57,15 +57,13 @@ This dataset has 6 CSV files elaborating the details of Bangladesh Generic Medic
 
 6.  Compared to insulin, does the anti-hypertensive drug segment have more competitors(manufacturers and brands)? [include all subcategories with the word anti-hypertensive]
 ### Steps Followed:
--Step 1: DataSets were loaded into the Power BI
--Step 2: I have checked for the column profile of each and every dataset.
--Step 3: The slug column is removed from all the datasets.
--Step 4: A few data transformations(split column by delimiter) were performed on medicine.csv to extract price information from the column package container.
--Step 5: 
--Step 6:
--Step 7:
--Step 8:
--Step 9:
--Step 10:
+-  Step 1: Loaded datasets into Power BI.
+-  Step 2: Reviewed the column profiles of all datasets.
+-  Step 3: Removed the slug column from all datasets.
+-  Step 4: Transformed medicine.csv by splitting the package container column to extract price details.
+-  Step 5: Analyzed dataset columns and established the ER model. Link to
+        <a href= "https://github.com/raju-payyavula/Pharmaceutical-Market-Analysis/blob/main/ER%20Model.PNG"> ER Model </a>
+-  Step 6: Created a measure to calculate average generic prices using the formula: Avg Price = AVERAGE(medicine[price]).
+
 
 
