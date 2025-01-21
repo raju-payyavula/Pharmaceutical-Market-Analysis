@@ -84,4 +84,25 @@ This dataset has 6 CSV files elaborating the details of Bangladesh Generic Medic
 -         Leading manufacturers by dosage forms and brands(**Incepta Pharmaceuticals Ltd** with 1182 brands and 76 dosage forms).
 -         Specific insights into manufacturers of key drugs like Paracetamol and Anti-Malerial. 5 manufacturers were producing paracetamol IV infusion and 23 manufacturers were producing anti-malarial drug.
 6. Pricing Data:
--        Average price of specific drugs (e.g., Mefloquine) 
+-        Average price of specific drugs (e.g., Mefloquine)
+
+## How to Use
+### Exploring Data:
+- Use interactive filters to explore details about manufacturers, brands, and drug classes.
+- Identify trends and outliers in medicine types, dosage forms, and pricing.
+### Decision-Making:
+- Leverage insights on top manufacturers and popular drug classes to guide strategic decisions.
+- Assess competitive positioning by analyzing the number of generics and brands across manufacturers.
+### Custom Analysis:
+- Combine filters for specific scenarios, such as identifying manufacturers dominating a drug class or analyzing the average pricing trends.
+## Applications
+- Market Research: Identify leading players and popular drug types in the pharmaceutical industry.
+- Strategic Planning: Guide production, marketing, and sales strategies for manufacturers and distributors.
+- Regulatory Oversight: Monitor drug class trends and manufacturer activities.
+## Technical Details
+- Built With: Power BI Desktop
+- Interactivity: Filters for medicine types, drug classes, and manufacturer details.
+## Notes
+- The data reflects a specific time frame; ensure to refresh the dataset for up-to-date insights.
+- Some charts and data points are aggregated; detailed breakdowns can be accessed by drilling down in the dashboard.
+
